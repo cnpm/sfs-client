@@ -89,7 +89,11 @@ describe('client.test.js', function () {
 
   describe('remove()', function () {
     it('should remove a file success', function (done) {
-      client.remove('/sfs-client/client.test.js', done);
+      client.remove('/sfs-client/client.test.js', function (err, result) {
+        should.not.exist(err);
+        result.should.eql({ok: true});
+        done();
+      });
     });
   });
 });

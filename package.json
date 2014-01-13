@@ -29,7 +29,7 @@
     "coveralls": "*",
     "mocha": "*",
     "mocha-lcov-reporter": "*",
-    "sfs": "0.0.2",
+    "sfs": "0.0.3",
     "should": "2.1.1",
     "travis-cov": "*"
   },
