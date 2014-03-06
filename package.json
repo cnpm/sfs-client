@@ -19,18 +19,20 @@
   },
   "dependencies": {
     "debug": "0.7.4",
-    "formstream": "0.0.7",
-    "urllib": "0.5.5"
+    "formstream": "0.0.8",
+    "thunkify-wrap": "0.0.5",
+    "urllib": "0.5.6"
   },
   "devDependencies": {
+    "autod": "*",
     "blanket": "*",
     "contributors": "*",
     "cov": "*",
     "coveralls": "*",
     "mocha": "*",
     "mocha-lcov-reporter": "*",
-    "sfs": "0.0.3",
-    "should": "2.1.1",
+    "sfs": "0.1.0",
+    "should": "3.1.3",
     "travis-cov": "*"
   },
   "homepage": "https://github.com/cnpm/sfs-client",
