@@ -18,10 +18,10 @@
     }
   },
   "dependencies": {
-    "debug": "0.7.4",
-    "formstream": "0.0.8",
+    "debug": "2.6.9",
+    "formstream": "1.1.0",
     "thunkify-wrap": "0.0.5",
-    "urllib": "0.5.6"
+    "urllib": "2.11.0"
   },
   "devDependencies": {
     "autod": "*",
